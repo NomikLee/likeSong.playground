@@ -20,9 +20,9 @@ func babyPregnant()  {
     print("It sure feels like dying")
 }
 
-func sayingGoodbye(change iyrics: String)  {
+func sayingGoodbye(iyrics change: String)  {
     print("Saying goodbye")
-    print("To my \(iyrics) life")
+    print("To my \(change) life")
 }
 
 
@@ -44,9 +44,9 @@ func daddySleep()  {
     print("I turn off the lights")
 }
 
-func andGoodnight(change iyrics: String)  {
+func andGoodnight(iyrics change: String)  {
     print("And say goodnight")
-    print("To my \(iyrics) life")
+    print("To my \(change) life")
 }
 
 func packBags()  {
@@ -74,8 +74,8 @@ func flashEyes()  {
 }
 
 babyPregnant()
-sayingGoodbye(change: "miserable")
+sayingGoodbye(iyrics: "miserable")
 daddySleep()
-andGoodnight(change: "miserable")
+andGoodnight(iyrics: "miserable")
 packBags()
 flashEyes()
